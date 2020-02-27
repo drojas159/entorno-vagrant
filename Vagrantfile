@@ -84,7 +84,7 @@ Vagrant.configure("2") do |config|
    config.vm.provision "shell", path: 'nginx.sh'
    config.vm.provision "shell", path: 'apache.sh'
    config.vm.provision "shell", path: 'django.sh'
-  #
+  #Vagrant
 
  
  
